@@ -1,0 +1,20 @@
+{
+  "name": "std-esm-repro-issue-217",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@std/esm": "^0.19.1"
+  },
+  "@std/esm": {
+    "cjs": {
+      "vars": true
+    },
+    "esm": "js"
+  }
+}
